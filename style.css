@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; /* character style */
+    background-color:beige; /* background color for the whole webpage */
+    margin: 40px; /* distance to the edge*/
+}
+
+h1{ /* first level head */
+    color:sienna; /* head char color */
+    text-align: center; /* text centered */
+}
+
+p { /* paragraph */
+    font-size: 18px;
+    line-height: 1.6; /* distance between lines */
+}
+
+.img-row{ /* img and char style */
+    display: flex; /* display in row */
+    align-items: center; /* char and pic same height */
+    justify-content: center; /* all centered */
+    gap: 24px; /* distance between pic and char */
+}
+
+.img-row img{ /* img style */
+    width: 220px; /* img size */
+    border-radius: 12px; /* round edge effect */
+    box-shadow: inset; /* shadow under img */
+}
