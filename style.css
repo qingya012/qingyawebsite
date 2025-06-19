@@ -19,6 +19,7 @@ p { /* paragraph */
     align-items: center; /* char and pic same height */
     justify-content: center; /* all centered */
     gap: 24px; /* distance between pic and char */
+    white-space: pre-line;
 }
 
 .img-row img{ /* img style */
