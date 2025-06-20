@@ -19,11 +19,15 @@ p { /* paragraph */
     align-items: center; /* char and pic same height */
     justify-content: center; /* all centered */
     gap: 24px; /* distance between pic and char */
+}
+
+.img-row p{
+    max-width: 300px;
     white-space: pre-line;
 }
 
 .img-row img{ /* img style */
     width: 220px; /* img size */
     border-radius: 12px; /* round edge effect */
-    box-shadow: inset; /* shadow under img */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* shadow under img */
 }
