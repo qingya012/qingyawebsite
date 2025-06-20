@@ -9,6 +9,11 @@ h1{ /* first level head */
     text-align: center; /* text centered */
 }
 
+h2{
+    color:darkolivegreen;
+    text-align: center;
+}
+
 p { /* paragraph */
     font-size: 18px;
     line-height: 1.6; /* distance between lines */
