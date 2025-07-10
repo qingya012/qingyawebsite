@@ -41,9 +41,10 @@ p { /* paragraph */
 #sidebar {
     width: 200px;
     height: 100vh;
-    background: #333;
+    background: rgba(51, 51, 51, 0.9);
     color: white;
     position: fixed;
+    top: 0;
     left: -200px; /* 默认隐藏在左侧外 */
     transition: left 0.3s; /* 平滑动画 */
 }
@@ -58,4 +59,5 @@ p { /* paragraph */
     left: 20px;
     font-size: 24px;
     cursor: pointer;
+    z-index: 100; /* 确保图标在侧边栏上方 */
 }
