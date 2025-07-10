@@ -41,7 +41,7 @@ p { /* paragraph */
 #sidebar {
     width: 200px;
     height: 100vh;
-    background: #f5a623;
+    background: #f6be63;
     position: fixed;
     top: 0;
     left: -200px; /* 默认隐藏在左侧外 */
@@ -49,7 +49,7 @@ p { /* paragraph */
     display: flex;
     flex-direction: column;
     justify-content: center; /* 文字垂直居中 */
-    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 0 15px rgba(107, 82, 1, 0.246);
 }
 /* 目录展开时 */
 #sidebar.open {
@@ -66,12 +66,12 @@ p { /* paragraph */
     color: #2c3e50;
     padding: 15px;
     font-size: 18px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(93, 114, 85, 0.1);
     transition: background 0.3s;
 }
 
 #sidebar li:hover {
-    background: #e67e22; /* 悬停加深橘 */
+    background: #dda038; /* 悬停加深橘 */
 }
 
 /* 触发图标 */
@@ -81,7 +81,7 @@ p { /* paragraph */
     left: 20px;
     font-size: 24px;
     cursor: pointer;
-    color: #2c3e50;
+    color: #274b34;
     z-index: 100; /* 确保图标在侧边栏上方 */
     transition: color 0.3s;
 }
