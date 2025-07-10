@@ -41,7 +41,7 @@ p { /* paragraph */
 #sidebar {
     width: 200px;
     height: 100vh;
-    background: rgba(248, 174, 55, 0.811);
+    background: #f5a623;
     position: fixed;
     top: 0;
     left: -200px; /* 默认隐藏在左侧外 */
