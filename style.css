@@ -44,7 +44,6 @@ p { /* paragraph */
     background: rgba(51, 51, 51, 0.9);
     color: white;
     position: fixed;
-    top: 0;
     left: -200px; /* 默认隐藏在左侧外 */
     transition: left 0.3s; /* 平滑动画 */
 }
