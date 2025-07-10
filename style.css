@@ -41,7 +41,7 @@ p { /* paragraph */
 #sidebar {
     width: 200px;
     height: 100vh;
-    background: #f6be63;
+    background: #f8d192;
     position: fixed;
     top: 0;
     left: -200px; /* 默认隐藏在左侧外 */
@@ -56,7 +56,7 @@ p { /* paragraph */
     left: 0; /* 滑入可视区域 */
 }
 
-/* 菜单项 - 深蓝灰文字 */
+/* 菜单项*/
 #sidebar ul {
     list-style: none;
     text-align: center;
