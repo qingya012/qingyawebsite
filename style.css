@@ -36,3 +36,26 @@ p { /* paragraph */
     border-radius: 12px; /* round edge effect */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* shadow under img */
 }
+
+/* 初始隐藏目录 */
+#sidebar {
+    width: 200px;
+    height: 100vh;
+    background: #333;
+    color: white;
+    position: fixed;
+    left: -200px; /* 默认隐藏在左侧外 */
+    transition: left 0.3s; /* 平滑动画 */
+}
+/* 目录展开时 */
+#sidebar.open {
+    left: 0; /* 滑入可视区域 */
+}
+/* 触发图标 */
+#menu-icon {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
