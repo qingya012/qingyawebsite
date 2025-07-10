@@ -42,7 +42,6 @@ p { /* paragraph */
     width: 200px;
     height: 100vh;
     background: rgba(248, 174, 55, 0.811);
-    color: white;
     position: fixed;
     top: 0;
     left: -200px; /* 默认隐藏在左侧外 */
