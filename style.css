@@ -41,7 +41,7 @@ p { /* paragraph */
 #sidebar {
     width: 200px;
     height: 100vh;
-    background: #f8d192;
+    background: #f8e2a0;
     position: fixed;
     top: 0;
     left: -200px; /* 默认隐藏在左侧外 */
@@ -66,12 +66,12 @@ p { /* paragraph */
     color: #39502c;
     padding: 15px;
     font-size: 18px;
-    border-bottom: 1px solid rgba(93, 114, 85, 0.1);
+    border-bottom: 1px solid rgba(89, 107, 79, 0.1);
     transition: background 0.3s;
 }
 
 #sidebar li:hover {
-    background: #dda038; /* 悬停加深橘 */
+    background: #fad461; /* 悬停加深橘 */
 }
 
 /* 触发图标 */
