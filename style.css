@@ -49,11 +49,11 @@ p { /* paragraph */
     display: flex;
     flex-direction: column;
     justify-content: center; /* 文字垂直居中 */
-    box-shadow: 5px 0 15px rgba(107, 82, 1, 0.246);
 }
 /* 目录展开时 */
 #sidebar.open {
     left: 0; /* 滑入可视区域 */
+    box-shadow: 5px 0 15px rgba(107, 82, 1, 0.246);
 }
 
 /* 菜单项*/
