@@ -12,28 +12,33 @@
     <!-- 侧边目录 -->
     <div id="sidebar">
         <ul>
-            <li>首页</li>
-            <li>关于</li>
-            <li>联系</li>
+            <li onclick="showPage('page1')">Home</li>
+            <li onclick="showPage('page2')">xxx</li>
         </ul>
     </div>
+
+    <!-- 内容区（主页面） -->
+    <div id="page1" class="page">
+        <h1>Welcome!</h1>
+        <p>&nbsp</p>
+        
+        <h2>About Me</h2>
+        
+        <div class = "img-row">
+            
+            <img src="materials/my_photo.JPG" alt="My Photo" width="200" height="300">
+            <p>
+            Name: Qingya Zhang <br>
+            University of California, San Diego <br>
+            Major: B.S. Mathematics and Computer Science
+            </p>
+        </div>
+    </div>
+
+    <div id="page2" class="page" style="display:none;">页面2内容</div>
 
     <!-- 引入 JS -->
     <script src="move.js"></script>
 
-    <h1>Welcome!</h1>
-    <p>&nbsp</p>
-    
-    <h2>About Me</h2>
-
-    <div class = "img-row">
-        
-        <img src="materials/my_photo.JPG" alt="My Photo" width="200" height="300">
-        <p>
-            Name: Qingya Zhang <br>
-            University of California, San Diego <br>
-            Major: B.S. Mathematics and Computer Science
-        </p>
-    </div>    
 </body>
 </html>

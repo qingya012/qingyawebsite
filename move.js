@@ -13,3 +13,13 @@ document.addEventListener("click", (e) => {
     sidebar.classList.remove("open");
   }
 });
+
+// 页面切换功能
+function showPage(pageId) {
+    // 隐藏所有.page元素
+    document.querySelectorAll('.page').forEach(page => {
+      page.style.display = 'none';
+    });
+    // 显示目标页面
+    document.getElementById(pageId).style.display = 'block';
+  }
